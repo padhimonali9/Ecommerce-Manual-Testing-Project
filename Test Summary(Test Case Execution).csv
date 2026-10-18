@@ -1,0 +1,15 @@
+Test Case ID,Feature,Test Steps,Expected Result,Actual Result,Status
+TC01,Add to Cart,Click Add to cart on one Product,Product is added; cart count becomes 1,"Button changed to Remove, cart count became 1",PASS
+TC02,Remove from Cart,Click Remove from the added product,Product is removed from the cart,"Button changed to Add to Cart, cart count became 0",PASS
+TC03,Cart Count,Add two different products to the cart,Cart count displays 2,Cart count displayed 2,PASS
+TC04,View Cart,Add two  products and open  the cart,Both selected products appear on the cart,Both  products appeared on the cart,PASS
+TC05,Product Price,Compare each produt's price on the produtcs page and cart page,Product prices match on both pages,Both Product prices matched,PASS
+TC06,Checkout Navigation,Click Checkout from the cart page,Customer Information form opens,"Checkout form displayed first name, last name, and postal code fields",PASS
+TC07,Checkout Form Validation,Leave all Fields empty and click Continue,Website displays a validation error,Error message disaplyed when required fields were empty,PASS
+TC08,Checkout Form Submission,"Enter first name, last name, and postal code, then click Continue",Website proceeds to the next checkout step,Payment Information page opened,PASS
+TC09,Checkout Overview,Proceed from Payment Information to Checkout Overview,"Selected produtcs, prices, and order total are displayed","Products, prices, and other total were dispalyed",PASS
+TC10,Complete Checkout,Click Finish on the Checkout Overview page,Order Confirmation page is displayed,Products appear in alphabetical order,PASS
+TC11,Sort Products by Price,Select Price (low to high) from the sorting dropdown ,Products are dispalyed from lowest to highest price,Products appeared in ascending price order ,PASS
+TC12,Sort Products by Name,Select Name ( A to Z ) fromt the sorting dropdown,Products appear in alphabetical order,Products appeared  in alphabetical order,PASS
+TC13,Sort Products by Price Descending,Select Price ( high to low ) from the sorting dropdown ,Products are dispalyed from  highest to  lowest price,Products appeared in descending price order ,PASS
+TC14,Product Details,Open a product and inspect its details,Product name and price match the listing,Product name and price matched the listing,PASS
